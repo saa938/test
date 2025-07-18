@@ -38,9 +38,9 @@ function App() {
                 <div className="robot-arm right"></div>
               </div>
               <div className="code-blocks">
-                <div className="code-block">if (problem) { solve(); }</div>
-                <div className="code-block">while (learning) { grow(); }</div>
-                <div className="code-block">function innovate() { ... }</div>
+                <div className="code-block">if (problem) &#123; solve(); &#125;</div>
+                <div className="code-block">while (learning) &#123; grow(); &#125;</div>
+                <div className="code-block">function innovate() &#123; ... &#125;</div>
               </div>
             </div>
           </div>
