@@ -84,41 +84,79 @@ function App() {
       {/* What is FLL Section */}
       <section className="fll-section">
         <div className="container">
-          <h2>What is FIRST Tech Challenge?</h2>
+          <h2>What is FIRST LEGO League?</h2>
           <div className="fll-overview">
             <div className="fll-description">
               <p>
-                FIRST Tech Challenge (FTC) is a dynamic, hands-on robotics competition that immerses middle and high school students 
-                in the exhilarating world of engineering, coding, and strategic problem-solving.
+                FIRST LEGO League (FLL) is an exciting robotics program that introduces young people to science, technology, 
+                engineering, and mathematics through hands-on learning and robotics competitions.
               </p>
               <p>
-                Teams of passionate, inventive students design, build, and program sophisticated robots using Android-based kits 
-                and Java or Blocks interfaces. The competition unfolds in a fast-paced alliance format, where robots navigate 
-                intricate game fields, execute precise maneuvers, and adapt to unpredictable challenges.
+                Teams work together to solve real-world problems, design and program LEGO robots, and participate in 
+                research projects that make a positive impact on their communities.
               </p>
+            </div>
+          </div>
+
+          <div className="fll-divisions">
+            <div className="division">
+              <div className="division-header">
+                <h3>FLL Discover</h3>
+                <span className="age-badge">Ages 4-6</span>
+              </div>
+              <p>Introduction to STEM learning through exploration and discovery</p>
+              <ul>
+                <li>Hands-on activities</li>
+                <li>Simple machines</li>
+                <li>Teamwork basics</li>
+              </ul>
+            </div>
+            <div className="division">
+              <div className="division-header">
+                <h3>FLL Explore</h3>
+                <span className="age-badge">Ages 6-10</span>
+              </div>
+              <p>Building and programming with LEGO Education sets</p>
+              <ul>
+                <li>LEGO WeDo 2.0</li>
+                <li>Basic programming</li>
+                <li>Research projects</li>
+              </ul>
+            </div>
+            <div className="division">
+              <div className="division-header">
+                <h3>FLL Challenge</h3>
+                <span className="age-badge">Ages 9-16</span>
+              </div>
+              <p>Advanced robotics competition with research component</p>
+              <ul>
+                <li>LEGO MINDSTORMS</li>
+                <li>Robot competitions</li>
+                <li>Innovation projects</li>
+              </ul>
             </div>
           </div>
 
           <div className="fll-features">
             <div className="feature">
-              <div className="feature-icon">🤖</div>
-              <h4>Robot Design</h4>
-              <p>Teams design and program sophisticated robots using Android-based kits and Java or Blocks programming</p>
+              <div className="feature-icon">🧱</div>
+              <h4>LEGO Robotics</h4>
+              <p>Build and program robots using LEGO MINDSTORMS and other LEGO Education platforms</p>
             </div>
             <div className="feature">
-              <div className="feature-icon">⚡</div>
-              <h4>Fast-Paced Competition</h4>
-              <p>Alliance-based matches where robots navigate complex game fields and execute precise maneuvers</p>
+              <div className="feature-icon">🔬</div>
+              <h4>Research Projects</h4>
+              <p>Investigate real-world problems and develop innovative solutions</p>
             </div>
             <div className="feature">
               <div className="feature-icon">🏆</div>
               <h4>Competitions</h4>
-              <p>Regional and international tournaments with multiple award categories beyond just winning matches</p>
+              <p>Local, regional, and international tournaments celebrating achievement in multiple categories</p>
             </div>
             <div className="feature">
               <div className="feature-icon">🤝</div>
-              <h4>Community Impact</h4>
-              <p>Emphasis on collaboration, outreach, and innovation, rewarding teams for community impact and engineering excellence</p>
+              <h4>Core Values</h4>
+              <p>Discovery, innovation, impact, inclusion, teamwork, and fun guide everything we do</p>
             </div>
           </div>
         </div>
@@ -247,10 +285,10 @@ function App() {
       <section className="join-section">
         <div className="container">
           <div className="join-content">
-            <h2>Ready to Join the Adventure?</h2>
+            <h2>Ready to Start Your FLL Journey?</h2>
             <p>
-              Connect with our award-winning team and become part of a community that's 
-              changing the world through STEM education and competitive robotics.
+              Ready to form your own FLL team? Fill out our form to get started with 
+              team formation and connect with other passionate students in your area.
             </p>
             
             <div className="form-container">
@@ -259,46 +297,46 @@ function App() {
                 <div className="benefits-list">
                   <div className="benefit">
                     <span className="benefit-icon">✅</span>
-                    <span>Mentorship from experienced team members</span>
+                    <span>Help connecting with other students</span>
                   </div>
                   <div className="benefit">
                     <span className="benefit-icon">✅</span>
-                    <span>Hands-on experience with advanced robotics</span>
+                    <span>Guidance on team formation</span>
                   </div>
                   <div className="benefit">
                     <span className="benefit-icon">✅</span>
-                    <span>Competitive tournament experience</span>
+                    <span>Resources for getting started</span>
                   </div>
                   <div className="benefit">
                     <span className="benefit-icon">✅</span>
-                    <span>Programming skills in Java and Blocks</span>
+                    <span>Information about local competitions</span>
                   </div>
                   <div className="benefit">
                     <span className="benefit-icon">✅</span>
-                    <span>Leadership and teamwork development</span>
+                    <span>Access to mentorship opportunities</span>
                   </div>
                   <div className="benefit">
                     <span className="benefit-icon">✅</span>
-                    <span>Award-winning team culture</span>
+                    <span>Support throughout your FLL journey</span>
                   </div>
                 </div>
               </div>
               
               <div className="form-cta">
                 <div className="cta-content">
-                  <h3>Get Started Today</h3>
+                  <h3>Form Your Team Today</h3>
                   <p>
-                    Ready to join our championship-level team? Fill out our interest form 
-                    and we'll get back to you with next steps, meeting times, and how you 
-                    can become part of our robotics family.
+                    Ready to start your FLL adventure? Fill out our team formation form 
+                    and we'll help connect you with other students and provide resources 
+                    to get your team up and running.
                   </p>
                   <a 
-                    href="https://forms.gle/example-form-link" 
+                    href="https://forms.gle/f8U1xr4G7JWXMWMh9" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="cta-button"
                   >
-                    Join Our Team
+                    Start Team Formation
                     <span className="button-arrow">→</span>
                   </a>
                   <p className="form-note">
@@ -316,13 +354,13 @@ function App() {
         <div className="container">
           <div className="footer-content">
             <div className="footer-section">
-              <h4>FIRST Tech Challenge</h4>
-              <p>Inspiring young people to be science and technology leaders and innovators through competitive robotics</p>
+              <h4>FIRST LEGO League</h4>
+              <p>Inspiring young people to be science and technology leaders and innovators through hands-on STEM learning</p>
             </div>
             <div className="footer-section">
               <h4>Get Involved</h4>
               <ul>
-                <li><a href="#join">Join a Team</a></li>
+                <li><a href="#join">Form a Team</a></li>
                 <li><a href="#volunteer">Volunteer</a></li>
                 <li><a href="#mentor">Become a Mentor</a></li>
               </ul>
@@ -330,14 +368,14 @@ function App() {
             <div className="footer-section">
               <h4>Resources</h4>
               <ul>
-                <li><a href="https://www.firstinspires.org/robotics/ftc" target="_blank" rel="noopener noreferrer">Official FTC Site</a></li>
+                <li><a href="https://www.firstlegoleague.org/" target="_blank" rel="noopener noreferrer">Official FLL Site</a></li>
                 <li><a href="#challenges">Current Challenges</a></li>
                 <li><a href="#tournaments">Tournaments</a></li>
               </ul>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2024 FTC Team. Inspiring the next generation of innovators through competitive robotics.</p>
+            <p>&copy; 2024 FLL Team Formation. Inspiring the next generation of innovators through STEM education.</p>
           </div>
         </div>
       </footer>
