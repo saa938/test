@@ -628,12 +628,20 @@ body {
     grid-template-columns: 1fr;
   }
   
-  .fll-divisions {
+  .fll-features {
     grid-template-columns: 1fr;
   }
   
-  .fll-features {
-    grid-template-columns: 1fr;
+  .team-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .season-header {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
   }
   
   .form-container {
@@ -663,5 +671,20 @@ body {
   
   section {
     padding: 60px 0 !important;
+  }
+  
+  .team-stat {
+    min-width: 120px;
+    padding: 1.5rem;
+  }
+  
+  .team-stat h3 {
+    font-size: 2rem;
+  }
+  
+  .award {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
   }
 }
