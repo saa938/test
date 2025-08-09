@@ -9,11 +9,22 @@ function App() {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              Join the Future of <span className="highlight">STEM</span>
+              Join Robotics - The Future of <span className="highlight">STEM</span>
             </h1>
             <p className="hero-subtitle">
               Building tomorrow's innovators through robotics, coding, and collaborative problem-solving
             </p>
+            <div className="hero-cta">
+              <a 
+                href="https://forms.gle/f8U1xr4G7JWXMWMh9" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hero-cta-button"
+              >
+                Form Your Team Now
+                <span className="button-arrow">→</span>
+              </a>
+            </div>
             <div className="hero-stats">
               <div className="stat">
                 <h3>4-16</h3>
@@ -173,19 +184,19 @@ function App() {
                 <p>Team Members</p>
               </div>
               <div className="team-stat">
-                <h3>8th-11th</h3>
-                <p>Grade Range</p>
+                <h3>18</h3>
+                <p>FLL Awards</p>
               </div>
               <div className="team-stat">
                 <h3>4</h3>
-                <p>Years Experience</p>
+                <p>Years FTC</p>
               </div>
             </div>
             <div className="team-description">
               <p>
                 We are a dedicated team of 12 passionate students ranging from 8th to 11th grade, 
-                with 4 years of competitive robotics experience. Our team has consistently performed 
-                at the highest levels, earning recognition as a top-tier FTC team through our 
+                with 4 years of competitive FTC experience and 18 FLL awards. Our team has consistently 
+                performed at the highest levels, earning recognition as a top-tier FTC team through our 
                 innovative designs, strategic gameplay, and commitment to excellence.
               </p>
             </div>
@@ -360,7 +371,7 @@ function App() {
             <div className="footer-section">
               <h4>Get Involved</h4>
               <ul>
-                <li><a href="#join">Form a Team</a></li>
+                <li><a href="https://forms.gle/f8U1xr4G7JWXMWMh9" target="_blank" rel="noopener noreferrer">Form a Team</a></li>
                 <li><a href="#volunteer">Volunteer</a></li>
                 <li><a href="#mentor">Become a Mentor</a></li>
               </ul>
@@ -369,7 +380,7 @@ function App() {
               <h4>Resources</h4>
               <ul>
                 <li><a href="https://www.firstlegoleague.org/" target="_blank" rel="noopener noreferrer">Official FLL Site</a></li>
-                <li><a href="#challenges">Current Challenges</a></li>
+                <li><a href="https://www.youtube.com/watch?v=ErDj8myI_Tg&ab_channel=FIRSTLEGOLeague" target="_blank" rel="noopener noreferrer">Current Challenges</a></li>
                 <li><a href="#tournaments">Tournaments</a></li>
               </ul>
             </div>

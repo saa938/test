@@ -87,10 +87,46 @@ body {
   animation: slideInLeft 1s ease-out 0.2s both;
 }
 
+.hero-cta {
+  margin-bottom: 2rem;
+  animation: slideInLeft 1s ease-out 0.3s both;
+}
+
+.hero-cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.2);
+}
+
+.hero-cta-button:hover {
+  background: rgba(255,255,255,0.25);
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  border-color: rgba(255,255,255,0.4);
+}
+
+.hero-cta-button .button-arrow {
+  transition: transform 0.3s ease;
+}
+
+.hero-cta-button:hover .button-arrow {
+  transform: translateX(5px);
+}
+
 .hero-stats {
   display: flex;
   gap: 2rem;
-  animation: slideInLeft 1s ease-out 0.4s both;
+  animation: slideInLeft 1s ease-out 0.5s both;
 }
 
 .stat {
