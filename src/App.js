@@ -189,7 +189,7 @@ function App() {
               </div>
               <div className="team-stat">
                 <h3>4</h3>
-                <p>Years FTC</p>
+                <p>Years FTC Experience</p>
               </div>
             </div>
             <div className="team-description">
