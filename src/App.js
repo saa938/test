@@ -184,8 +184,8 @@ function App() {
                 <p>Team Members</p>
               </div>
               <div className="team-stat">
-                <h3>18</h3>
-                <p>FLL Awards</p>
+                <h3>8th-11th</h3>
+                <p>Grade Range</p>
               </div>
               <div className="team-stat">
                 <h3>4</h3>
@@ -195,9 +195,10 @@ function App() {
             <div className="team-description">
               <p>
                 We are a dedicated team of 12 passionate students ranging from 8th to 11th grade, 
-                with 4 years of competitive FTC experience and 18 FLL awards. Our team has consistently 
-                performed at the highest levels, earning recognition as a top-tier FTC team through our 
-                innovative designs, strategic gameplay, and commitment to excellence.
+                with 4 years of competitive FTC experience and 6 years of FLL experience winning 
+                18 FLL awards. Our team has consistently performed at the highest levels, earning 
+                recognition as a top-tier FTC team through our innovative designs, strategic 
+                gameplay, and commitment to excellence.
               </p>
             </div>
           </div>
